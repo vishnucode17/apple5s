@@ -1,0 +1,110 @@
+body{
+    margin:0;
+    padding:0;
+    background:rgba(198, 255, 236, 0.575);
+}
+.mobile{
+    background: black;
+    height: 467.9px;
+    width:221.4px;
+    border-radius:20px;
+    box-shadow: 4px 4px 4px 4px rgba(151, 150, 150, 0.534);
+}
+.design{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius:20px;
+    padding:5.44px 4.44px;
+    background: rgb(109, 109, 109);
+    width:216.7px;
+    height:465px;
+}
+.display{
+    height:341.63px;
+    width:220.5px;
+    display:flex;
+}
+.display img{
+    height:341.63px;
+    width:210.5px;
+}
+#earpiece{
+    background:rgb(104, 104, 104);
+    width:40.81px;
+    height:8.7px;
+    border-radius: 10px;
+    display:flex;
+    align-items: center;
+    gap: 5px;
+    background:linear-gradient(to bottom,rgb(75, 74, 74),rgb(25,25,25));
+
+}
+.frontcam{
+    background:rgb(41, 41, 41);
+    width:10px;
+    height:10px;
+    margin-bottom:8.7px;
+    border-radius: 10px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+} 
+#cam{
+    background:rgb(1, 5, 59);
+    width:3.5px;
+    height:3.5px;
+    border-radius: 20px;
+}
+.earpiece{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height:63.2px;
+}
+.home_btn{
+    border:2.5px solid grey;
+    height:41.2px;
+    width:41.2px;
+    border-radius: 100%;
+    background:linear-gradient(to right, rgb(48, 48, 48),black );
+}
+.homebutton{
+    height:63.2px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.external{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    min-height:100vh;
+}
+#one,#two{
+    width:7.52px;
+    background:black;
+}
+.buttons{
+    z-index:-20;
+    height: 340px;
+    display:flex;
+    flex-direction:column;
+    gap: 20px;
+}
+#one1,#two2,#three3{
+    background:rgb(77, 77, 77);
+}
+#one1{
+    width:2.4px;
+    height:20px;
+    border-radius:40px;
+}
+#two2,#three3{
+    width:2.2px;
+    height:20px;
+    border-radius:20px;
+}
